@@ -4,6 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "coverage": "jest --coverage --watchAll=false",
     "test": "jest --watch",
     "test:ci": "jest --ci",
     "storybook": "storybook dev -p 6006",
