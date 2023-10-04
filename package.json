@@ -4,8 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "coverage": "jest --coverage --watchAll=false",
-    "test": "jest --watch",
+    "test": "jest --coverage",
     "test:ci": "jest --ci",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
@@ -32,6 +31,7 @@
     "@testing-library/react": "14.0.0",
     "@testing-library/user-event": "14.4.3",
     "@types/jest": "29.5.5",
+    "@types/node": "20.8.2",
     "@types/react": "18.2.21",
     "@types/styled-components": "^5.1.28",
     "eslint-plugin-storybook": "^0.6.14",
